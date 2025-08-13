@@ -111,4 +111,36 @@ Catching design flaws or usability issues at the wireframing stage is **much che
 Wireframes (especially high-fidelity ones) can be used to **simulate user interactions**, enabling early testing of workflows before implementation.
 
 > 🔹 *Example:* Stakeholders can walk through a booking flow prototype to provide feedback on layout and steps, improving the UX before it’s fully built.
+> 
 
+
+# Problem Identified During Wireframing
+While reviewing the low-fidelity wireframes, the team conducted a design walkthrough with internal stakeholders and a small group of test users. One major usability issue emerged:
+
+## Confusing Room Selection Flow:
+> The wireframe showed a single-page design where users selected room type, added guests, and chose check-in/check-out dates in one long vertical scroll.
+> Test users were overwhelmed and confused about the order of actions.
+> Many skipped essential steps like selecting the number of guests before proceeding.
+
+
+
+## How It Was Resolved
+- Instead of moving forward with development, the design team used Figma to rapidly iterate on the wireframe and prototype a new layout:
+
+### Flow Redesign:
+
+- Broke the process into three separate, smaller screens:
+- Select Dates
+- Choose Room Type
+- Add Guest Details
+
+1. Progress Indicators:
+Added a progress bar at the top of the screen to help users understand where they were in the booking flow.
+
+2. Contextual Tips:
+Included brief prompts like “Choose your stay dates” and “Don’t forget to add all guests for accurate pricing.”
+
+3. Usability Retesting:
+The revised high-fidelity wireframes were tested again using an interactive prototype.
+
+Results showed higher task completion rates, better user satisfaction, and no skipped steps.
